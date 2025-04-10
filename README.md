@@ -40,10 +40,10 @@ RFNs can be stacked like MLP layers and trained end-to-end using any standard lo
 pip install torch scikit-learn matplotlib
 ```
 
-### 🧪 2. Run Demo on UCI Breast Cancer Dataset
+### 🧪 2. Run Demo on UCI Breast Cancer Dataset and Regression
 
 ```bash
-python demo_breast_cancer.py
+Relational_filed_network.ipynb
 ```
 
 This script trains an RFN for binary classification and prints test accuracy and loss.
@@ -71,18 +71,16 @@ This script trains an RFN for binary classification and prints test accuracy and
 | MLP   | ~95%          |
 | RFN   | **96–98%**     |
 
-See `demo_breast_cancer.py` for full training loop and evaluation.
+See Relational_filed_network.ipynb for full training loop and evaluation.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-.
-├── rfn.py                  # Core RFN and RelationalFieldLayer implementation
-├── demo_breast_cancer.py   # Training script on UCI Breast Cancer dataset
-├── utils.py                # Optional helper functions (metrics, plotting, etc.)
-└── README.md               # This file
+                                                  
+├── Relational_filed_network.ipynb               
+└── README.md             
 ```
 
 ---
